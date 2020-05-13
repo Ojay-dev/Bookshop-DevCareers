@@ -89,11 +89,11 @@ header ul li:hover, .active {
   color: #1C2A39;
 }
 
-header>div.icon i {
+header>div.icon a {
   margin-inline-end: 40px;
 }
 
-header>div.icon i:last-child {
+header>div.icon a:last-child {
   margin-inline-end: 0;
 }
 
@@ -129,6 +129,10 @@ section>div.books-on-display>.row>.book-display {
   display: flex;
   align-items: center;
 }
+section>div.books-on-display>.row>.book-display > img {
+  margin-inline-end: 20px;
+}
+
 
 section>div.books-on-display>.row>.book-display h2 {
   font-family: Open Sans;
